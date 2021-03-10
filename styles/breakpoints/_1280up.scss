@@ -1,0 +1,143 @@
+.hero-five{
+  display: none;
+}
+
+.hero-five-pc{
+  display: block;
+  position: relative;
+  top:680px;
+  height:1000px;
+
+  & h1{
+   position: absolute;
+   top:10px;
+   left:50%;
+   transform: translate(-50%,-50%);
+  }
+
+ .swiper-sub {
+  position: relative;
+  top:100px;
+  overflow: hidden;
+
+  .swiper-slide{
+    height:270px;  
+    // overflow: hidden;
+    
+    &::after{
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      opacity: 1;
+      display:block;
+      background-color:rgba(128,128,128,0.55);
+      height:250px;
+     }
+
+    & img{
+     width: 450px;
+     height:250px;
+     object-fit: cover;
+    }
+ 
+    & h3{
+     position: absolute;
+     top:50px;
+     left:50%;
+     transform: translate(-50%,-50%);
+     color:white;
+     font-size: 15px;
+     z-index: 100;
+     text-align: center;
+     width:250px;
+    }
+    & p{
+     position: absolute;
+     top:130px;
+     left:50%;
+     transform: translate(-50%,-50%);
+     color:white;
+     font-size: 13px;
+     z-index: 100;
+     width:210px;
+     font-weight: bold;
+    }
+  }
+ }
+
+ .btn-flat-border {
+  position: absolute;
+  top:450px;
+  left:50%;
+  transform: translate(-50%,-50%);
+  display: inline-block;
+  padding: 0.3em 1em;
+  line-height: 48px;
+  text-decoration: none;
+  color: navy;
+  border: solid 2px navy;
+  border-radius: 3px;
+  transition: .4s;
+  width:250px;
+  height:60px;
+  text-align: center;
+
+  &:hover{
+   background: navy;
+   color: white;
+  }
+}
+}
+
+.hero-six{
+  top:220px;
+  height:1500px;
+
+  & h1{
+    font-size: 30px;
+  }
+
+ .swiper-list,
+ .swiper-list-own,
+ .swiper-list-two {
+  top:400px;
+  width:600px;
+
+  .swiper-slide{
+    height:270px;  
+   
+    &::after{
+      content: "";
+      height:340px;
+     }
+
+    & img{
+     height:340px;
+    }
+ 
+    & p{
+     top:300px;
+    }
+  }
+
+  & .g{
+   padding-top:100px;
+   padding-bottom:30px;
+  }
+ }
+
+
+ }
+
+
+
+
+// position: absolute;
+// top:50%;
+// left:50%;
+// transform: translate(-50%,-50%);
+
+// font-family: 'Noto Serif JP', serif;
